@@ -29,6 +29,9 @@ object Optionals:
       case a if f(a) => Just(a)
       case _ => Empty()
 
+    // Aggiunti
+    def isDefined = !opt.isEmpty
+
 
 @main def tryOptionals =
   import Optionals.* // to work with Optionals (to see Optional type)
