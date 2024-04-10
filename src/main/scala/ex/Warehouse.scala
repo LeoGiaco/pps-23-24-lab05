@@ -2,6 +2,7 @@ package ex
 
 import util.Optionals.Optional
 import util.Sequences.*
+
 trait Item:
   def code: Int
   def name: String
